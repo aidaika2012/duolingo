@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #2A7B9B;
+background: linear-gradient(42deg, rgba(42, 123, 155, 1) 0%, rgba(87, 199, 133, 1) 50%, rgba(96, 215, 142, 1) 100%);
+}
+#duolingo{
+    width: 100%;
+     min-height: 750px;
+}
+.main{
+    display: flex;
+}
+.blok  {
+    background-color: aliceblue;
+    width: 400px;
+    height: 700px;
+    border-radius: 30px;
+    text-align: center;
+    
+}
+.blok h1{
+    font-size: 30px;
+}
+.block p{
+    margin-top: 20px;
+    font-size: 20px;
+    padding-bottom:40px;
+}
+.block img{
+    object-fit: cover;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    margin-top: 30px;
+}
+.block button{
+    margin-bottom: 20px;
+    margin-top: 50px;
+    font-size:20px;
+    border-radius: 20px;
+    color:beige;
+    background-color: rgb(122, 23, 198);
+
+}
